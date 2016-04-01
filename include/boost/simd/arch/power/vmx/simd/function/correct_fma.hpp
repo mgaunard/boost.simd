@@ -12,7 +12,9 @@
 #ifndef BOOST_SIMD_ARCH_POWER_VMX_SIMD_FUNCTION_CORRECT_FMA_HPP_INCLUDED
 #define BOOST_SIMD_ARCH_POWER_VMX_SIMD_FUNCTION_CORRECT_FMA_HPP_INCLUDED
 
-#include <boost/simd/pack.hpp>
+#include <boost/simd/sdk/hierarchy/simd.hpp>
+#include <boost/dispatch/function/overload.hpp>
+#include <boost/config.hpp>
 
 namespace boost { namespace simd { namespace ext
 {

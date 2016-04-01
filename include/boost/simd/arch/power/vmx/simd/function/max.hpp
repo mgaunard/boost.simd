@@ -12,7 +12,9 @@
 #ifndef BOOST_SIMD_ARCH_POWER_VMX_SIMD_FUNCTION_MAX_HPP_INCLUDED
 #define BOOST_SIMD_ARCH_POWER_VMX_SIMD_FUNCTION_MAX_HPP_INCLUDED
 
-#include <boost/simd/pack.hpp>
+#include <boost/simd/sdk/hierarchy/simd.hpp>
+#include <boost/dispatch/function/overload.hpp>
+#include <boost/config.hpp>
 
 #if !defined(BOOST_SIMD_NO_NANS)
 #include <boost/simd/function/simd/if_else.hpp>
