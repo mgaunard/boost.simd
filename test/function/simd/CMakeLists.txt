@@ -21,11 +21,15 @@ add_subdirectory(split)
 set ( SOURCES
 abs.cpp
 abs_s.cpp
+acosh.cpp
+acoth.cpp
 aligned_load.cpp
 aligned_store.cpp
 all.cpp
 any.cpp
 arg.cpp
+asinh.cpp
+atanh.cpp
 autofold.cpp
 automap.cpp
 autosplat.cpp
@@ -225,7 +229,7 @@ shift_right.cpp
 sign.cpp
 significants.cpp
 signnz.cpp
-sincosh.cpp
+sinhcosh.cpp
 sinh.cpp
 tanh.cpp
 sort.cpp
