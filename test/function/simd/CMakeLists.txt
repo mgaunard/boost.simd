@@ -50,6 +50,8 @@ complement.cpp
 conj.cpp
 copysign.cpp
 correct_fma.cpp
+cosh.cpp
+coth.cpp
 ctz.cpp
 dec.cpp
 dec_s.cpp
@@ -223,6 +225,9 @@ shift_right.cpp
 sign.cpp
 significants.cpp
 signnz.cpp
+sincosh.cpp
+sinh.cpp
+tanh.cpp
 sort.cpp
 sqr_abs.cpp
 sqr.cpp
